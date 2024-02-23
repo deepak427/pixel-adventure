@@ -308,6 +308,7 @@ class Player extends SpriteAnimationGroupComponent
 
     const waitToChangeDuration = Duration(seconds: 3);
     Future.delayed(waitToChangeDuration, () {
+      
       game.loadNextLevel();
     });
   }

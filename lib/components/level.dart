@@ -114,4 +114,6 @@ class Level extends World with HasGameRef<PixelAdventure> {
     }
     player.collisionBlocks = collisionBlocks;
   }
+
+  
 }
